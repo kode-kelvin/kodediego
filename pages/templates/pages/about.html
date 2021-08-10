@@ -1,0 +1,183 @@
+{% extends 'base.html' %}
+<!-- static -->
+
+{% load static %}
+<!-- title -->
+{% block title %} About me {% endblock %}
+
+<!-- body -->
+{% block content %}
+<main id="main">
+  <section class="section pb-5">
+    <div class="container">
+      <div class="row mb-5 align-items-end">
+        <div class="col-md-6" data-aos="fade-up">
+          <h2>About Me</h2>
+          <!-- <p class="mb-0"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            necessitatibus incidunt ut officiis explicabo inventore.</p
+          > -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 ml-auto order-2" data-aos="fade-up">
+          <h3 class="h3 mb-4">Skills</h3>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <div class="d-flex mb-1">
+                <strong>UX Design</strong>
+                <span class="ml-auto">98%</span>
+              </div>
+              <div class="progress custom-progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 98%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </li>
+            <li class="mb-3">
+              <div class="d-flex mb-1">
+                <strong>UX Research</strong>
+                <span class="ml-auto">96%</span>
+              </div>
+              <div class="progress custom-progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 96%"
+                  aria-valuenow="96"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </li>
+            <li class="mb-3">
+              <div class="d-flex mb-1">
+                <strong>UI Design</strong>
+                <span class="ml-auto">99%</span>
+              </div>
+              <div class="progress custom-progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 99%"
+                  aria-valuenow="99"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </li>
+            <li class="mb-3">
+              <div class="d-flex mb-1">
+                <strong>Programming</strong>
+                <span class="ml-auto">60%</span>
+              </div>
+              <div class="progress custom-progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 60%"
+                  aria-valuenow="87"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </li>
+            <li class="mb-3">
+              <div class="d-flex mb-1">
+                <strong>Business & Innovation</strong>
+                <span class="ml-auto">90%</span>
+              </div>
+              <div class="progress custom-progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </li>
+            <li class="mb-3">
+              <div class="d-flex mb-1">
+                <strong></strong>
+                <span class="ml-auto"> Data Analysis 70%</span>
+              </div>
+              <div class="progress custom-progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="88"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-7 mb-5 mb-md-0" data-aos="fade-up">
+          <!-- <p
+            ><img
+              style="height: 400px; width: 400px"
+              src="assets/img/kelvin.jpg"
+              alt="Image"
+              class="img-fluid"
+          /></p> -->
+          <p
+            >I am an experienced UIUX Designer with a solid background in
+            Computer Science, Entrepreneurship & Innovation</p
+          >
+          <p
+            >I do visual design, brand design, and implementation direction. I
+            have lead and currently leading digital design work for multiple AI,
+            Blockchain, FinTech, Renewable Energy, SaaS, Retail & Logistics
+            Companies</p
+          >
+          <p
+            >I have held lead positions where I was responsible for developing
+            content for clients, supervising product designs and assisting in
+            the overall development cycle, collect and analyze comprehensive
+            data, and participate in the development of marketing strategies in
+            collaboration with executive leadership staff.</p
+          >
+          <p
+            >To me, design is a problem solving activity. As a designer, I
+            understand that the perfect design not only involves visual
+            aesthetics, but even more importantly, an interface that functions
+            well. This requires a deep understanding of human behavior and
+            psychology - the outcome of which greatly impacts the overall
+            experience of the product, regardless of the platform.</p
+          >
+          <p
+            ><img
+              style="height: 400px; width: 400px"
+              src="{% static 'assets/img/mine.jpg' %}"
+              alt="Image"
+              class="img-fluid"
+          /></p>
+          <p
+            ><a
+              href="https://docs.google.com/document/d/10zZxBV_m52cDyHNDCnZQvCJf1aznlel8MNykEraouPU/edit?usp=sharing"
+              target="_blank"
+              class="readmore"
+              >Download my CV</a
+            ></p
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+
+    </div> </section
+  ><!-- End Services Section --> </main
+><!-- End #main -->
+
+{% endblock %}
